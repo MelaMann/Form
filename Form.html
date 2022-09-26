@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Form</title>
+</head>
+<h1 style="text-align: center;">Good vibes form</h1>
+<body>
+    <div>
+        <h2 style="text-align:center" >Tell us something positive that happen to you</h2>
+    </div>
+    <form action="results.html"  method="get">
+        <div>
+<label for="name">Name</label>
+<input  type="text" name="Name"id="name" placeholder="enter you name " required>
+</div><br><br>
+<div>
+<label>Email</label>
+<input   type="email" name="email"  placeholder="enter your email"   required>
+</div><br><br>
+<div>
+<label>On a scale 1 to 10 how good was it?</label>
+<input   type="number" name="number" min="1" max="10"  placeholder="enter a number between 1 and 10">
+</div><br>
+<div>
+When this is happen
+</div>
+<div>
+<label for="Morning">Morning</label>
+<input type="checkbox">
+</div>
+<div>
+<label for="Afternoon">Afternoon</label>
+<input type="checkbox">
+</div>
+<div>
+<label for="Evening">Evening</label>
+<input type="checkbox">
+</div><br>
+<div>Gender</div>
+<div>
+<label for="male">male</label>
+<input type="radio" id="male" value="male">
+</div>
+<div>
+    <label for="female">female</label>
+    <input type="radio" id="female" value="female">
+    </div><br>
+    <div>
+<label for="age">Age</label>
+<select name="age" id="Age">
+<option value="20-25">20-25</option>
+<option value="26-32">26-32</option>
+<select name="age" id="age"></select>
+    </div><br><br>
+    <div>
+        <p>Leave a commet</p>
+   <textarea name="leave a message" id="leave a message" cols="30" rows="5">leave a message</textarea>
+   </div>
+<div>
+    <button type="submit">Submit</button>
+</div>
+    </form>
+</body>
+</html>
